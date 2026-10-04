@@ -112,6 +112,17 @@
 кон
 ```
 
+---
+
+**Python:**
+
+```python
+n = int(input())
+for i in range(n):
+    num = int(input())
+    print(num)
+```
+
 ``` kum
 алг
 наг
@@ -123,6 +134,27 @@
     ввод num
   кц
 кон
+```
+
+---
+
+**Python** (точный перевод кода выше):
+
+```python
+num = int(input())
+while num != 0:
+    num = int(input())
+    print(num)
+    num = int(input())
+```
+
+*Замечание: в этом коде число читается дважды за проход цикла, поэтому часть чисел пропускается и не печатается. Скорее всего, задумывалось так:*
+
+```python
+num = int(input())
+while num != 0:
+    print(num)
+    num = int(input())
 ```
 
 
@@ -168,6 +200,26 @@
 кон
 ```
 
+---
+
+**Python:**
+
+```python
+qty = 0
+total = 0                 # sum в Python — имя встроенной функции, поэтому total
+num = int(input())
+while num != 0:
+    total += num
+    qty += 1
+    num = int(input())
+if qty == 0:
+    print("Пусто")
+else:
+    print(total)
+```
+
+*Замечание: в КуМире-коде выше присваивание записано как `qty = 0` и `sum = 0`, а должно быть `:=`. Ещё в цикле опечатка `qwty` вместо `qty`.*
+
 ## Вычисление произведения
 
 ``` kum
@@ -186,4 +238,20 @@
   иначе вывод p, нс
   все
 кон
+```
+
+---
+
+**Python:**
+
+```python
+p = 1
+n = int(input())
+for i in range(n):
+    num = int(input())
+    p *= num
+if n <= 0:
+    print("Пусто")
+else:
+    print(p)
 ```
