@@ -584,3 +584,25 @@
 $128_10 = 10000000_2$.\
 $127_10 = 011111111_2$.\
 В итоге даёт 0 после побитовой операции
+
+```C
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(void)
+{
+	int num;
+	bool is_power_of_two;
+	
+	scanf("%d", &num);
+	
+	if ((num & (num -1)) == 0)
+		is_power_of_two = true;
+	else
+		is_power_of_two =falsel;
+	
+	printf("%d", is_power_of_two);
+	
+	return 0
+}
+```
