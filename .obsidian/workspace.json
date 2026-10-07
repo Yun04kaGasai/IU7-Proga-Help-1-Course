@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alg.md",
-                "mode": "source",
+                "file": "Alg_C.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alg"
+              "title": "Alg_C"
             }
           }
         ],
