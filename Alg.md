@@ -158,7 +158,7 @@
   ввод num
   нц пока num <> 0
     sum := sum + num
-    qwty := qty + 1
+    qty := qty + 1
     ввод num
   кц
   если qty = 0
