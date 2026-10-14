@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alg_C.md",
-                "mode": "preview",
+                "file": "Alg.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alg_C"
+              "title": "Alg"
             }
           }
         ],
@@ -201,6 +201,13 @@
   },
   "active": "3aae57056709bd8b",
   "lastOpenFiles": [
-    "Alg.md"
+    "Alg_C.md",
+    "Pasted image 20261014090629.png",
+    "kumir_algorithms.md",
+    "c_printf.md",
+    "image.png",
+    "README.md",
+    "Alg.md",
+    "Pasted image 20261014091738.png"
   ]
 }
